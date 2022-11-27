@@ -7,7 +7,7 @@ if(name.ToLower() == "пепси")
 }
 else
 {
-    if(name.ToLower() == "Чубик")
+    if(name.ToLower() == "чубик")
     {
         Console.WriteLine("Привет, рыжий котик Чубик))))))");
     }
