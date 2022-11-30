@@ -1,6 +1,6 @@
 ﻿// Это уже моя четвертая программа))))
 Console.Write("Введите Ваше имя: ");
-string name = Console.ReadLine();
+string name = Console.ReadLine()!;
 if(name.ToLower() == "пепси")
 {
     Console.WriteLine("Привет, черный котик Пепси))))))");
