@@ -35,7 +35,7 @@ for (int i = 0; i < word.Length; i++)
 {
     if (word[i] != word[j - 1])
     {
-        Console.WriteLine($"Данное слово/фраза {wordAdd} - это НЕ палиндром!");
+        Console.WriteLine($"Данное слово/фраза '{wordAdd}' - это НЕ палиндром!");
         break;
     }
     else if (word[i] == word[j - 1] && i > word.Length / 2)

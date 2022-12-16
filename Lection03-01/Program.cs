@@ -19,3 +19,4 @@ string myText = "Оборачиваемость товаров - это отн�
 string NewText = DiffText(myText, 'ч', 'Ч');
 
 Console.WriteLine(NewText);
+
